@@ -24,9 +24,9 @@ class _DescriptionScreenState extends State<DescriptionScreen> {
       body: Stack(
         children: [
           SingleChildScrollView(
-            padding: const EdgeInsets.only(top: 30.0),
+            padding: const EdgeInsets.only(top: 24.0),
             child: Padding(
-              padding: const EdgeInsets.all(16.0),
+              padding: const EdgeInsets.all(24.0),
               child: Column(
                 children: [
                   const SizedBox(height: 60),
@@ -35,10 +35,10 @@ class _DescriptionScreenState extends State<DescriptionScreen> {
                   Row(
                     children: [
                       const Icon(Icons.bookmark_border, color: Color(0xff0f6e9f),),
-                      const Text("1034", style: TextStyle(fontSize: 10),),
+                      const Text("1034", style: TextStyle(fontSize: 12),),
                       const SizedBox(width: 20,),
                       const Icon(Icons.favorite_border, color: Color(0xff0f6e9f)),
-                      const Text("1034", style: TextStyle(fontSize: 10)),
+                      const Text("1034", style: TextStyle(fontSize: 12)),
                       const SizedBox(width: 20,),
                       Container(
                           decoration: BoxDecoration(
@@ -65,7 +65,7 @@ class _DescriptionScreenState extends State<DescriptionScreen> {
                           )
                       ),
                       const SizedBox(width: 20,),
-                      const Text("3.2", style: TextStyle(fontSize: 12, color: Color(0xff0f6e9f)))
+                      Obx(() => Text(globalController.rating.value.toString(), style: TextStyle(fontSize: 12, color: Color(0xff0f6e9f))))
                     ],
                   ),
                   const SizedBox(height: 20,),

@@ -55,7 +55,7 @@ class _DescriptionImageSlideState extends State<DescriptionImageSlide> {
       children: [
         Container(
           padding: const EdgeInsets.only(bottom: 8.0),
-          height: 350,
+          height: 400,
           decoration: const BoxDecoration(
             borderRadius: BorderRadius.all(Radius.circular(12.0)),
             color: Colors.black12,
@@ -81,7 +81,7 @@ class _DescriptionImageSlideState extends State<DescriptionImageSlide> {
           ),
         ),
         SizedBox(
-          height: 310,
+          height: 360,
           child: ClipRRect(
             borderRadius: BorderRadius.circular(12.0),
             child: Stack(

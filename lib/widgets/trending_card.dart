@@ -33,7 +33,7 @@ class TrendingCard extends StatelessWidget {
   Widget build(BuildContext context) {
     return GestureDetector(
       onTap: (){
-        Get.to(const DescriptionScreen());
+        Get.to(() => const DescriptionScreen());
       },
       child: Container(
         padding: const EdgeInsets.only(bottom: 8.0),

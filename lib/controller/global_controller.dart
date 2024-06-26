@@ -20,7 +20,7 @@ class GlobalController extends GetxController {
   RxInt selectedPage = 0.obs;
   RxInt selectedImage = 0.obs;
 
-  RxDouble rating = 0.0.obs;
+  RxDouble rating = 3.2.obs;
 
   RxInt selectedTab = 2.obs;
 

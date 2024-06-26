@@ -21,7 +21,7 @@ class MeetupScreen extends StatelessWidget {
                 children: [
                   const SizedBox(height: 20,),
                   Container(
-                    height: 60,
+                    height: 50,
                     decoration: BoxDecoration(
                       borderRadius: BorderRadius.circular(12.0),
                       border: Border.all(color: const Color(0xff0f6e9f), width: 2.0),

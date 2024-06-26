@@ -26,7 +26,7 @@ class _BottomTabsState extends State<BottomTabs> {
           border: Border(
             top: BorderSide(
               color: Colors.black12,
-              width: 2.0,
+              width: 1.0,
             ),
           ),
       ),
